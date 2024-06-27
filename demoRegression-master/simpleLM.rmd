@@ -69,7 +69,7 @@ summary.lm(simp)
 ```
 
 ## Compare all models that predict WEIGHT other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
-
+   
 CHEST :
  Adjusted R-squared:  0.9262 RSE :33.08
 
@@ -87,7 +87,7 @@ Adjusted R-squared:  0.6064   RSE :76.41
 
 AGE
 Adjusted R-squared:  0.5526   RSE :81.47
-
+    
 
 
 
