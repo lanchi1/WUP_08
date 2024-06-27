@@ -44,3 +44,6 @@ summary.lm(simp)
 CHEST :
  Adjusted R-squared:  0.9262 RSE :33.08
 
+NECK 
+Adjusted R-squared:  0.87  RSE :43.91
+
