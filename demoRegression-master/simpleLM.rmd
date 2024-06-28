@@ -44,6 +44,13 @@ abline(simp)
 summary.lm(simp)
 ```
 
+## Model WEIGHT ~ HEADWTH  this is an example  
+```{r}
+simp <- lm(WEIGHT~HEADWTH,data=bears)
+plot(WEIGHT~HEADWTH,data=bears)
+abline(simp)
+summary.lm(simp)
+```
 
 
 
@@ -59,6 +66,7 @@ For AGE- the rse for this graph was 81.47 while the Adjusted R-squared:   0.5526
 
 For HEADLEN- the rse for this graph was 67.81 while the Adjusted R-squared:   0.69 
 
+For HEADWTH- the rse for this graph was 76.41 while the Adjusted R-squared: 0.6064   
 
 
 
