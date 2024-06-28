@@ -27,67 +27,11 @@ abline(simp)
 summary.lm(simp)
 ```
 
-Chest Chart
-
-```{r}
-simp <- lm(WEIGHT~CHEST,data=bears)
-plot(WEIGHT~CHEST,data=bears)
-abline(simp)
-summary.lm(simp)
-```
-
-LENGTH CHART
-```{r}
-simp <- lm(WEIGHT~LENGTH,data=bears)
-plot(WEIGHT~LENGTH,data=bears)
-abline(simp)
-summary.lm(simp)
-```
-
-HEADLEN CHART
-```{r}
-simp <- lm(WEIGHT~HEADLEN,data=bears)
-plot(WEIGHT~HEADLEN,data=bears)
-abline(simp)
-summary.lm(simp)
-```
-
-HEADWTH CHART
-```{r}
-simp <- lm(WEIGHT~HEADWTH,data=bears)
-plot(WEIGHT~HEADWTH,data=bears)
-abline(simp)
-summary.lm(simp)
-```
-
-AGE CHART
-```{r}
-simp <- lm(WEIGHT~AGE,data=bears)
-plot(WEIGHT~AGE,data=bears)
-abline(simp)
-summary.lm(simp)
-```
 
 ## Compare all models that predict WEIGHT other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
-   
-CHEST :
- Adjusted R-squared:  0.9262 RSE :33.08
 
-NECK 
-Adjusted R-squared:  0.87  RSE :43.91
+Sumary of all the plot
 
-LENGTH
-Adjusted R-squared:  0.7423   RSE :61.83
-
-HEADLEN
-Adjusted R-squared:  0.69   RSE :67.81 
-
-HEADWTH
-Adjusted R-squared:  0.6064   RSE :76.41
-
-AGE
-Adjusted R-squared:  0.5526   RSE :81.47
-    
 
 
 
