@@ -89,4 +89,5 @@ For LENGTH- the rse for this graph was 61.83 while the Adjusted R-squared: 0.742
 
 For CHEST -the rse for this graph was 33.08 while the Adjusted R-squared :0.9262
 
+After looking at all the result of the graph we can see that the graph with the tightest grouping is the chest as its adjusted R-squared was 0.9262 which is the closest to 1 that we have. As well as the graph with the widest spread was age as its Adjusted R-squared was 0.5526 
 
