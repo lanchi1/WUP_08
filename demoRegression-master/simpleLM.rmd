@@ -36,6 +36,18 @@ abline(simp)
 summary.lm(simp)
 ```
 
+## Model WEIGHT ~ HEADLEN  this is an example  
+```{r}
+simp <- lm(WEIGHT~HEADLEN,data=bears)
+plot(WEIGHT~HEADLEN,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+
+
+
+
 
 ## Compare all models that predict WEIGHT other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
@@ -44,4 +56,12 @@ Sumary of all the plot
 For Neck- the rse for this graph was 43.91 while the Adjusted R-squared:   0.87 
 
 For AGE- the rse for this graph was 81.47 while the Adjusted R-squared:   0.5526 
+
+For HEADLEN- the rse for this graph was 67.81 while the Adjusted R-squared:   0.69 
+
+
+
+
+
+
 
